@@ -11,6 +11,8 @@ module.exports = function getTimeForEducation(
     ) {
       if (knowsProgramming) {
         return Math.ceil(800 / config[focus]);
+      } else {
+        return Math.ceil(1300 / config[focus]);
       };
   };
   
